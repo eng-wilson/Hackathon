@@ -1,0 +1,15 @@
+<!--
+  <h1>Cadastros</h1>
+
+<ul>
+  <li *ngFor="let user of users$">
+    <a routerLink="/details/{{user.id}}">{{user.id}} {{ user.name }}</a>
+  </li>
+</ul>
+-->
+<div class="wrapper" id="content">
+    <button mat-flat-button color="warn" id="botao">Cadastrar</button> 
+    
+    <app-data-table></app-data-table>
+    <router-outlet></router-outlet>
+  </div>
