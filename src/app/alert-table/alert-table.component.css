@@ -1,0 +1,14 @@
+.mat-table{
+    width: 100%;
+    
+}
+
+.mat-elevation-z8{
+    max-height: 100vh;
+    margin-bottom: -50px;
+    
+}
+
+.mat-paginator, .mat-header-row{
+    background-color: #f44336; 
+}

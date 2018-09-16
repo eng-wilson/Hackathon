@@ -15,6 +15,8 @@ import { WarningComponent } from './warning/warning.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import { AlertTableComponent } from './alert-table/alert-table.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import {MatListModule} from '@angular/material/list';
     UsersComponent,
     DetailsComponent,
     DataTableComponent,
-    WarningComponent
+    WarningComponent,
+    AlertTableComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import {MatListModule} from '@angular/material/list';
     MatSortModule,
     MatToolbarModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
