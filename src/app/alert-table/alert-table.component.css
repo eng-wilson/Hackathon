@@ -12,3 +12,10 @@
 .mat-paginator, .mat-header-row{
     background-color: #f44336; 
 }
+
+.banco{
+    margin: 0px 0px 10px 0px;
+}
+a{
+    text-decoration: none;
+}

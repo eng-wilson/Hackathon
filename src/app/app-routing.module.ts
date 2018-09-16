@@ -4,6 +4,7 @@ import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import { WarningComponent } from './warning/warning.component';
 import { AlertTableComponent} from './alert-table/alert-table.component';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   {
@@ -11,13 +12,17 @@ const routes: Routes = [
     component: UsersComponent
   },
   {
-    path: 'details/:id',
-    component: DetailsComponent
+    path: 'card',
+    component: CardComponent
   },
   {
     path: 'warning',
     component: AlertTableComponent
   },
+  {
+    path: 'details',
+    component: DetailsComponent
+  }
 ];
 
 @NgModule({

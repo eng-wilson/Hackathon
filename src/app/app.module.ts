@@ -17,6 +17,12 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import { AlertTableComponent } from './alert-table/alert-table.component';
 import {MatCardModule} from '@angular/material/card';
+import { CardComponent } from './card/card.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,8 @@ import {MatCardModule} from '@angular/material/card';
     DetailsComponent,
     DataTableComponent,
     WarningComponent,
-    AlertTableComponent
+    AlertTableComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +48,12 @@ import {MatCardModule} from '@angular/material/card';
     MatToolbarModule,
     MatDividerModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    MatExpansionModule,
+    MatSnackBarModule,
+    MatDialogModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,9 +13,9 @@ export interface AlertTableItem {
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: AlertTableItem[] = [
-  {id: 24, name: 'Julieta da Silva Romeu', address: 'Rua 1', horaChamado: '19:38'},
-  {id: 159, name: 'Isabela Moraes de Souza', address: 'Rua 3', horaChamado: '19:50'},  
-  {id: 192, name: 'Raimunda de Jesus Cristo', address: 'Rua A', horaChamado: '20:03'},
+  {id: 24, name: 'Julieta da Silva Romeu', address: 'Avenida José Maria das Dores, 302', horaChamado: '19:38'},
+  {id: 159, name: 'Isabela Moraes de Souza', address: 'Rua José Maria dos Santos, 208', horaChamado: '19:50'},  
+  {id: 192, name: 'Raimunda de Jesus Cristo', address: 'Rua Arlindo Crusoé, 14', horaChamado: '20:03'},
 ];
 
 /**

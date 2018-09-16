@@ -1,0 +1,38 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://i.imgur.com/4deB7Tt.jpg');
+    background-size: cover;
+  }
+
+  .agressor{
+      position: relative;
+      margin-left: 55px;
+      width: 70%;
+      height: 70%;
+  }
+  .viatura{
+      
+      height: 80%;
+  }
+  #botao{
+      width: 100%;
+  }
+
+  .wrap{
+    display: flex;
+    justify-content:  center;    
+    flex-direction: column;
+  }
+  .map-card {
+    max-width: 48%;
+    position: absolute;
+    margin-left: 460px;
+    height: 91%;
+  }
+  .example-map-image {
+    background-image: url('https://i.imgur.com/QQEtiev.png');
+    background-size: cover;
+  }

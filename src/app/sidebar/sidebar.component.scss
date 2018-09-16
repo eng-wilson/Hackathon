@@ -13,12 +13,17 @@ nav {
                 color: #fff;
                 padding: 20px;
                 display: block;
+                text-decoration: none;
             }
 
             .activated {
-                background-color: #00a8ff;
+                background-color: #ff0055 !important;
             }
         }
     }
     
+}
+.menu{
+    font-size: 14px;
+    margin-left: -8px;
 }
